@@ -16,7 +16,7 @@
     "lint": "dts lint",
     "prepare": "dts build",
     "size": "size-limit",
-    "run": "ts-node src/index.ts > tx.log",
+    "start": "ts-node src/index.ts > tx.log",
     "test": "dts test"
   },
   "husky": {

@@ -1,7 +1,10 @@
 const Web3 = require( 'web3' )
 // require('dotenv').config()
-const HTTP_PROVIDER_LINK = 'http://localhost:21301'
+const HTTP_PROVIDER_LINK = 'https://eth-mainnet.g.alchemy.com/v2/9l2A7QJ6XZf8VNgU89hCphedmcgemHMy'
 // const WS_PROVIDER_LINK = process.env.ARBITRUM_MAIN_LINK//arbitrum-one node end-point
+
+// const HTTP_PROVIDER_LINK = "https://maximum-weathered-surf.bsc.discover.quiknode.pro/9dc1e01ab166568822228266f8896910b55a6170/"
+
 
 const options = {
     timeout: 30000, // ms
